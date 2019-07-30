@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-const API_URL = 'http://samples.openweathermap.org/data/2.5/weather';
+const API_URL = 'https://samples.openweathermap.org/data/2.5/weather';
 
 class App extends Component {
     state = {
