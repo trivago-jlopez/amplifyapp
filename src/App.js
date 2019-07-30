@@ -22,9 +22,9 @@ class App extends Component {
         {this.state.weathers.map((weather) => (
           <div className="card">
            <div className="card-body">
-                <h5 className="card-title">{weather.main}</h5>
+                <h5 className="card-title">{weather.name}</h5>
                 <h6 className="card-subtitle mb-2 text-muted">
-                    {weather.description}
+                    {weather.weather[0].description}
                 </h6>
             </div>
           </div>
